@@ -1,4 +1,4 @@
-package staticmembers;
+package com.staticmembers;
 
 class SM1 {
 	
@@ -19,7 +19,7 @@ class SM1 {
 	
 	static
 	{
-		System.out.println("Static Initialiser Block");
+		System.out.println("Static Initialiser Block - executed during class Loading Process of class SM1");
 	}
 	
 	static void test()

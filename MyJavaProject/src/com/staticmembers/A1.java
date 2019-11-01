@@ -1,4 +1,4 @@
-package staticmembers;
+package com.staticmembers;
 
 class A1 {
 

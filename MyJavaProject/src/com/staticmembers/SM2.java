@@ -1,4 +1,4 @@
-package staticmembers;
+package com.staticmembers;
 
 class SM2 {
 
@@ -16,8 +16,13 @@ class SM2 {
 	
 	public static void m1()
 	{
-		System.out.println(i);
 		i=10;
+		System.out.println(i);
+		
 	}
 
+	public static void m2()
+	{
+		System.out.println("from m2 of SM2");
+	}
 }
