@@ -7,4 +7,9 @@ class A1 {
 	{
 		System.out.println(i);
 	}
+	
+	void test ()
+	{
+		System.out.println("hi");
+	}
 }
