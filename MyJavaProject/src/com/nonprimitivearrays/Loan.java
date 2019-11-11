@@ -32,7 +32,8 @@ class Loan {
 		for(int i=0;i<loan.length;i++)
 		{
 			System.out.println(loan[i].name+" "+loan[i].roi);
-			loan[i].interest();
+			
+			loan[i].interest();		// calling a non static method (using object)
 			
 		}
 	}
