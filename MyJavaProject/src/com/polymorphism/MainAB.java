@@ -11,6 +11,8 @@ public class MainAB {
 		ob = new B();	// upcasting
 		ob.test();		// from test() of B
 
+		ob = new C();
+		ob.test();
 	}
 
 }

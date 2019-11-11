@@ -1,11 +1,11 @@
 package com.polymorphism;
 
-class B extends A {
+class C extends B {
 
 	@Override
 	void test()
 	{
-		System.out.println("from test() of B");
+		System.out.println("from test() of C");
 	}
-	
+
 }
