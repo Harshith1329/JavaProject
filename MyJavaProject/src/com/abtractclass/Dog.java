@@ -12,7 +12,7 @@ class Dog extends Animal{
 		super(height,weight);
 	}
 	
-	void talk()
+    void talk()
 	{
 		System.out.println("Bow Wow");
 	}
