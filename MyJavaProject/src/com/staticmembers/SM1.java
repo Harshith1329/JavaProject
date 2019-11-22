@@ -2,7 +2,7 @@ package com.staticmembers;
 
 class SM1 {
 	
-	//int i;          // non static member variables
+	int x;          // non static member variables
 	static int i =10;  // static member variables
 	
 	
@@ -19,6 +19,8 @@ class SM1 {
 	
 	static
 	{
+		SM1 ob = new SM1();
+		ob.x = 20;
 		System.out.println("Static Initialiser Block - executed during class Loading Process of class SM1");
 	}
 	

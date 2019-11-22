@@ -1,7 +1,7 @@
 package com.pac1;
 
 //private access specifier
-
+// cant be inherited
 class C1 extends A1 {
 
 	public static void main(String[] args) {

@@ -7,6 +7,9 @@ class A1 {
 	private static int i;
 	private int j;
 	
+	private A1() {}
+
+	
 	public static void main(String[] args) {
 		System.out.println(i);			// accessing private (static) member from same class
 		A1 ob = new A1();

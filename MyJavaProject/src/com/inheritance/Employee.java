@@ -2,6 +2,7 @@ package com.inheritance;
 
 class Employee {
 
+	static int i =10;
 	int id;
 	double salary;
 	String name;
@@ -14,4 +15,6 @@ class Employee {
 		this.salary=salary;
 		this.name=name;
 	}
+	
+	
 }

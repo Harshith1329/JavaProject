@@ -2,6 +2,7 @@ package com.abtractclass;
 
 abstract class Animal {
 
+	
 	double height;
 	double weight;
 	

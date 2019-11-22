@@ -4,6 +4,7 @@ package com.pac1;
 
 class C2 extends A2 {
 
+	
 	public static void main(String[] args) {
 		
 		System.out.println(i);  		// inheritance of class A2 from same package (static)

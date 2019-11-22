@@ -4,7 +4,9 @@ package com.nonstaticmembers;
 
 class A {
 
+	static A ob1;
 	int i;
+	static int x;
 	
 	void Initialise(int i)
 	{
@@ -14,12 +16,15 @@ class A {
 		i=20;			// formal argument 'i' will change not the non static i
 		System.out.println(i); 
 		System.out.println(this.i);
+		x=20;
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		A ob1 = new A();
+		
+		
+		ob1 = new A();
 		
 		//ob1.i =10;
 		System.out.println(ob1.i);
@@ -28,6 +33,8 @@ class A {
 		ob1.Initialise(10);
 		
 		System.out.println(ob1.i);
+		
+		
 	}
 
 }
